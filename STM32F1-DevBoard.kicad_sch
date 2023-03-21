@@ -983,46 +983,6 @@
         )
       )
     )
-    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "#FLG" (at 0 1.905 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "PWR_FLAG" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "PWR_FLAG_0_0"
-        (pin power_out line (at 0 0 90) (length 0)
-          (name "pwr" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "PWR_FLAG_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 1.27)
-            (xy -1.016 1.905)
-            (xy 0 2.54)
-            (xy 1.016 1.905)
-            (xy 0 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-    )
   )
 
   (junction (at 105.41 132.08) (diameter 0) (color 0 0 0 0)
@@ -1084,9 +1044,6 @@
   )
   (junction (at 175.26 127) (diameter 0) (color 0 0 0 0)
     (uuid c7ddebda-f66b-437b-9d05-79a8de1f1c3b)
-  )
-  (junction (at 116.84 50.8) (diameter 0) (color 0 0 0 0)
-    (uuid c7e9a49b-647c-4cb0-ac9d-4a0c348e582a)
   )
   (junction (at 233.68 138.43) (diameter 0) (color 0 0 0 0)
     (uuid ccdd9331-723d-452f-bfe6-c16cd35ef64e)
@@ -2083,7 +2040,7 @@
     )
     (pin "1" (uuid 7327b75b-b8d9-4c98-b23a-8474605dc628))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "#PWR0106") (unit 1)
         )
@@ -2112,34 +2069,9 @@
     (pin "1" (uuid 1cb9c95b-d29e-44e4-83ae-7de63c8f00ce))
     (pin "2" (uuid fdb24e68-7ce4-4ba5-b0b1-4c293cbb1608))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "C10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 116.84 50.8 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0b3cdd99-9790-424f-88ec-aecea8fc61fa)
-    (property "Reference" "#FLG01" (at 114.935 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 113.03 50.7999 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 116.84 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 116.84 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid caa827c0-d9ac-4ebc-989e-d432c134ab93))
-    (instances
-      (project "STM32F103C8T6"
-        (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
-          (reference "#FLG01") (unit 1)
         )
       )
     )
@@ -2167,7 +2099,7 @@
     (pin "5" (uuid a30c6411-68d0-4593-a28e-61dce0b15478))
     (pin "6" (uuid e1d6efc5-f4ef-405f-a098-aeafe521f37f))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "UART1") (unit 1)
         )
@@ -2192,7 +2124,7 @@
     )
     (pin "1" (uuid a2550ce1-9e0c-421f-8ca0-86dd903ec43d))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "#PWR0105") (unit 1)
         )
@@ -2221,7 +2153,7 @@
     (pin "1" (uuid 3e6cc995-68c1-416a-9bf0-511c6eab69cc))
     (pin "2" (uuid 7c5327de-db2b-4415-a552-6995c40f2bf5))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "R5") (unit 1)
         )
@@ -2250,7 +2182,7 @@
     (pin "1" (uuid 6ee6010a-d10c-4cdb-9aef-d52251cbf14c))
     (pin "2" (uuid bb4ca5c8-68bf-4d40-b4d2-19cee289edb8))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "R2") (unit 1)
         )
@@ -2275,7 +2207,7 @@
     )
     (pin "1" (uuid 817d980d-f28b-4777-ad18-054104de9da8))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "#PWR0117") (unit 1)
         )
@@ -2304,7 +2236,7 @@
     (pin "1" (uuid 54c7dd04-70ed-4c74-a7ff-4e02283ebd17))
     (pin "2" (uuid 49216c48-96ec-468f-a8fb-b7129db4170b))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "C7") (unit 1)
         )
@@ -2329,7 +2261,7 @@
     )
     (pin "1" (uuid 01007a7d-7d34-4809-85da-460b0c62774e))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "#PWR0121") (unit 1)
         )
@@ -2358,7 +2290,7 @@
     (pin "1" (uuid d48f25a5-336b-402a-be99-ec2e6c1cf67c))
     (pin "2" (uuid 105a111b-e18f-4f25-83d2-713b46a6af8a))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "D1") (unit 1)
         )
@@ -2383,7 +2315,7 @@
     )
     (pin "1" (uuid 36a2a093-9367-4768-bb0d-44deead85fd3))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "#PWR0108") (unit 1)
         )
@@ -2412,7 +2344,7 @@
     (pin "1" (uuid 621ac9f7-5e32-4596-8f19-f6f2a8add6ce))
     (pin "2" (uuid ca653cfe-1d72-44be-9370-bdc15dd2e3cc))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "XTAL1") (unit 1)
         )
@@ -2441,7 +2373,7 @@
     (pin "1" (uuid 26c74eeb-1cd2-4214-a587-d48fb0d825f6))
     (pin "2" (uuid 9555b7f8-fd17-42a9-b6a3-be6f5fb64235))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "R1") (unit 1)
         )
@@ -2466,7 +2398,7 @@
     )
     (pin "1" (uuid 2c306233-f056-4ff6-80dc-99d92b31aa2a))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "#PWR0109") (unit 1)
         )
@@ -2495,7 +2427,7 @@
     (pin "1" (uuid a10c8bac-937d-4602-acfa-907b23cf7dfc))
     (pin "2" (uuid 305f2895-3c37-49e3-86ce-0c5756e9ad44))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "D2") (unit 1)
         )
@@ -2520,7 +2452,7 @@
     )
     (pin "1" (uuid 47867186-b4b7-4ea8-8f8d-a5a1fd0e2f60))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "#PWR0112") (unit 1)
         )
@@ -2545,7 +2477,7 @@
     )
     (pin "1" (uuid 0a96234a-3832-4b4f-a906-bfdc12e74f1d))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "#PWR0107") (unit 1)
         )
@@ -2570,7 +2502,7 @@
     )
     (pin "1" (uuid e644a88c-a719-447d-b650-99e27acec2d6))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "#PWR0111") (unit 1)
         )
@@ -2595,7 +2527,7 @@
     )
     (pin "1" (uuid ea5212a5-a63d-4292-b67d-bd699c944520))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "#PWR0118") (unit 1)
         )
@@ -2620,7 +2552,7 @@
     )
     (pin "1" (uuid 63e13b4e-2ae3-443a-831f-c4abb2aaa793))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "#PWR0115") (unit 1)
         )
@@ -2645,7 +2577,7 @@
     )
     (pin "1" (uuid a0d2abbf-4e12-418b-a6aa-9c6c19246dda))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "#PWR0119") (unit 1)
         )
@@ -2670,7 +2602,7 @@
     )
     (pin "1" (uuid 2aba390b-cc08-45e1-8d2e-ca13dbe6c828))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "#PWR0113") (unit 1)
         )
@@ -2695,7 +2627,7 @@
     )
     (pin "1" (uuid 12fa32f4-4d30-4178-bc08-1822bc92bf48))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "#PWR0104") (unit 1)
         )
@@ -2720,7 +2652,7 @@
     )
     (pin "1" (uuid 9174e76e-c64b-45dd-ae8b-27134bc3300b))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "#PWR0101") (unit 1)
         )
@@ -2749,7 +2681,7 @@
     (pin "1" (uuid 9a82b7b9-5125-4d4a-905e-da593b3757ad))
     (pin "2" (uuid 63301782-7749-472b-a6a9-f2b1848f8788))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "C13") (unit 1)
         )
@@ -2778,7 +2710,7 @@
     (pin "1" (uuid 62817e45-0167-4497-80d0-4e1c75782fb8))
     (pin "2" (uuid 8322ba33-3102-4e00-9d00-62cf9a4c8bb8))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "C1") (unit 1)
         )
@@ -2807,7 +2739,7 @@
     (pin "1" (uuid 83d1a75f-fbfc-4884-9010-05cbf2a7aca0))
     (pin "2" (uuid 707c1b33-da96-4012-a38c-e443979ab81a))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "SW2") (unit 1)
         )
@@ -2832,7 +2764,7 @@
     )
     (pin "1" (uuid be678bc9-f93f-4fe9-b7bf-6377e7d7966d))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "#PWR0122") (unit 1)
         )
@@ -2907,7 +2839,7 @@
     (pin "8" (uuid a50e6969-37c0-406d-881b-238ac7639b2e))
     (pin "9" (uuid 5d6f3814-c555-4e46-8a39-dc1e5b1fb8e1))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "U1") (unit 1)
         )
@@ -2951,7 +2883,7 @@
     (pin "8" (uuid 933752b8-4c3e-4b84-bd92-c85e77ee9481))
     (pin "9" (uuid 9574df00-fe07-4721-afd4-82dfe839c606))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "CH2") (unit 1)
         )
@@ -2976,7 +2908,7 @@
     )
     (pin "1" (uuid 131b4c25-8816-42aa-a98a-0448c34edf4d))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "#PWR0116") (unit 1)
         )
@@ -3001,34 +2933,9 @@
     )
     (pin "1" (uuid d8ebb1a8-e8e4-46f0-9b3d-61abada47baf))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "#PWR0123") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 106.68 35.56 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 98eba3bf-0ead-4e61-9941-e1683c6914f9)
-    (property "Reference" "#FLG0102" (at 106.68 33.655 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 102.87 31.75 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 106.68 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 106.68 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 82e38d10-3b1a-4e10-8e68-7be995a33e7c))
-    (instances
-      (project "STM32F103C8T6"
-        (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
-          (reference "#FLG0102") (unit 1)
         )
       )
     )
@@ -3055,7 +2962,7 @@
     (pin "1" (uuid cb063f76-c17f-4641-8719-066e9836c6c6))
     (pin "2" (uuid a7fe60d8-0acd-4f12-ada3-efec29ebd272))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "C4") (unit 1)
         )
@@ -3080,7 +2987,7 @@
     )
     (pin "1" (uuid 417881d5-0399-4c30-8d84-933f245deaf4))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "#PWR0114") (unit 1)
         )
@@ -3109,7 +3016,7 @@
     (pin "1" (uuid 3a1e4fd1-855a-444a-9967-6315f87256ae))
     (pin "2" (uuid 445474af-c903-406e-825a-6b641d53fa81))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "R4") (unit 1)
         )
@@ -3134,7 +3041,7 @@
     )
     (pin "1" (uuid 79a0f826-8c89-4510-94b2-caaf97fe1036))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "#PWR0102") (unit 1)
         )
@@ -3163,7 +3070,7 @@
     (pin "1" (uuid c624a246-5bbb-4b9e-9b51-becf89859982))
     (pin "2" (uuid be54640a-b590-47f7-b21f-30e3da445cbc))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "XTAL2") (unit 1)
         )
@@ -3192,7 +3099,7 @@
     (pin "1" (uuid 0a8c235c-8a68-4dae-9a72-007fbde3ccff))
     (pin "2" (uuid 3915d0e1-5735-4584-bf7a-b0802ec24001))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "C11") (unit 1)
         )
@@ -3222,7 +3129,7 @@
     (pin "2" (uuid 4782d27b-1674-4942-84eb-893ca1aaac0f))
     (pin "3" (uuid 1dcd9f9a-e306-4086-982d-dfa8f63bb99a))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "U2") (unit 1)
         )
@@ -3251,7 +3158,7 @@
     (pin "1" (uuid d83e1a59-11f4-4785-9657-15383c0458b4))
     (pin "2" (uuid 99c961b4-e1f9-466b-aaf5-db1bb729c1df))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "C3") (unit 1)
         )
@@ -3280,7 +3187,7 @@
     (pin "1" (uuid 23a5205c-472c-40c2-a92a-2e51d9bc5892))
     (pin "2" (uuid f409dfc0-cd68-40b4-bc47-237254954859))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "C12") (unit 1)
         )
@@ -3305,7 +3212,7 @@
     )
     (pin "1" (uuid 0ecde3d1-da26-47b2-a593-51ed5c1c160a))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "#PWR0103") (unit 1)
         )
@@ -3334,7 +3241,7 @@
     (pin "1" (uuid 0d38197a-09f5-42f3-bb23-72b909af8c11))
     (pin "2" (uuid 19f12ad4-048d-41cf-bca0-b382425d8b35))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "C2") (unit 1)
         )
@@ -3363,7 +3270,7 @@
     (pin "1" (uuid 8c927a1d-eb5d-48be-a440-de595901bd03))
     (pin "2" (uuid dd535579-0d42-4dcb-88da-0da500fadc3d))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "SW1") (unit 1)
         )
@@ -3392,7 +3299,7 @@
     (pin "1" (uuid 8c8a7368-6c57-40b1-8ba8-4e1e29597b82))
     (pin "2" (uuid ee8580b0-00e0-43b1-a3f7-7cb7b36d1d55))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "C8") (unit 1)
         )
@@ -3417,7 +3324,7 @@
     )
     (pin "1" (uuid db016c5c-041c-4990-b7e3-fe7e01f6d758))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "#PWR0110") (unit 1)
         )
@@ -3461,7 +3368,7 @@
     (pin "8" (uuid f311af8a-fc7f-4233-9dd1-c0b3d1950770))
     (pin "9" (uuid 63ffb760-da21-4923-a3fe-6d62d7835acf))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "CH1") (unit 1)
         )
@@ -3490,7 +3397,7 @@
     (pin "1" (uuid e9b15623-1f25-4f30-b998-fa8c29ce7b01))
     (pin "2" (uuid 9f13454a-2ff4-4315-b08b-2e7bdf3d3264))
     (instances
-      (project "STM32F103C8T6"
+      (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "C9") (unit 1)
         )

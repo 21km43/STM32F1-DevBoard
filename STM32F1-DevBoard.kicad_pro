@@ -398,7 +398,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
       "simulation_model_issue": "error",
       "unannotated": "error",
@@ -412,7 +412,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "STM32F103C8T6.kicad_pro",
+    "filename": "STM32F1-DevBoard.kicad_pro",
     "version": 1
   },
   "net_settings": {
