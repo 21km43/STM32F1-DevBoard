@@ -9,3 +9,5 @@ Basic Partのみ使っており、部品代と送料以外何もかかってい�
 USBで書き込みたい場合は基板を改造してください。USBのコネクタはBasic Partにないので今回は外しています。
 
 productionフォルダにガーバーと部品表、部品配置ファイルが入っています。
+
+![image](https://user-images.githubusercontent.com/48169975/231992126-a5dd5352-0489-4b56-8d52-f504bca738e5.png)
