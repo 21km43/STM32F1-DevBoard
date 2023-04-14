@@ -11,5 +11,5 @@ USBで書き込みたい場合は基板を改造してください。USBのコ�
 productionフォルダにガーバーと部品表、部品配置ファイルが入っています。
 
 ## 完成イメージ（裏面未実装の場合）
-![image](https://user-images.githubusercontent.com/48169975/231992126-a5dd5352-0489-4b56-8d52-f504bca738e5.png)
-![image](https://user-images.githubusercontent.com/48169975/231992295-7a19fd3a-0acb-45f4-b1fb-e37810be20b6.png)
+![image](https://user-images.githubusercontent.com/48169975/232069996-0b6f27eb-abe5-4a49-9ac6-03c6c7e889c9.png)
+![image](https://user-images.githubusercontent.com/48169975/232070152-a37bf315-594a-4f60-8d09-51c8fc9003f7.png)
