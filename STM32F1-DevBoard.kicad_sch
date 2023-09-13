@@ -2918,31 +2918,6 @@
     )
   )
 
-  (symbol (lib_id "power:VBUS") (at 193.04 148.59 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0c4a1133-16bc-4205-bd4f-1539909594d4)
-    (property "Reference" "#PWR04" (at 196.85 148.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VBUS" (at 189.23 148.59 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 193.04 148.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 193.04 148.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c37c0d16-66b3-4145-8fdf-3792fdfed49f))
-    (instances
-      (project "STM32F1-DevBoard"
-        (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
-          (reference "#PWR04") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 149.86 177.8 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 13b6f40d-1b4d-4a5d-ba45-2b74e8588466)
@@ -2963,6 +2938,31 @@
       (project "STM32F1-DevBoard"
         (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
           (reference "#PWR0105") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VCC") (at 193.04 148.59 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 170e0bf1-ba2f-49e0-be83-7b69a134aae0)
+    (property "Reference" "#PWR04" (at 196.85 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC" (at 189.23 148.59 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 193.04 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 193.04 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b43019d5-d128-4f68-b89b-89017e14c35a))
+    (instances
+      (project "STM32F1-DevBoard"
+        (path "/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
+          (reference "#PWR04") (unit 1)
         )
       )
     )
