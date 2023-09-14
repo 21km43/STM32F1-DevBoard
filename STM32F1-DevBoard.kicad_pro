@@ -204,10 +204,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|2489200|571500|c8e03126-ca92-4ab0-a0fd-71d8387e6f32|754365f9-1a1d-44b6-8c66-81f36c441780|/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d|/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d|/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d",
-      "pin_to_pin|2489200|596900|7ccf56cb-857e-4430-9e35-8de6a7cb7b24|754365f9-1a1d-44b6-8c66-81f36c441780|/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d|/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d|/978e1817-ddd6-4f04-b9a6-ae7fae5b1d1d"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
