@@ -47,5 +47,5 @@ You can see parts list from the BOM below.
 [Parts List](/production/bom.csv)
 
 ## LICENSE
-[MIT LICENSE](/LICENSE)
+[MIT LICENSE](/LICENSE)  
 You may use it freely for personal use, but if you wish to use it for commercial purposes, I would appreciate it if you could contact us.
