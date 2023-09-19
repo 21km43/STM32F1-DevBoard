@@ -20,7 +20,7 @@ When order this board, pay attention to the following.
 Order cost is depends on part cost and so on. For reference, the following is a rough estimate of the price when ordering the quantity (include shipping cost) (When using the $9 SMT coupon distributed by JLCPCB every month).
 *  2 qty -> $12 ($6/brd)
 *  5 qty -> $19 ($3.8/brd)
-* 30 qty -> $82 ($2.8/brd) <- Customs duties may apply
+* 30 qty -> $82 ($2.8/brd) <- Customs duties may be imposed
 
 ## Features
 * STM32F103C8T6 ARM Cortex M3
