@@ -33,8 +33,9 @@ I recommend ordering this board from JLCPCB. This board uses only Basic Parts ex
   * PA11 USB_DN
   * PA12 USB_DP
 
-## Parts
-[Part List](/production/bom.csv)
+## Parts List
+You can see parts list from the BOM below. Take note that this list contains only implemented on top side. So FLASH memory which is implemented on bottom side is not contained on this list.
+[Parts List](/production/bom.csv)
 
 ## LICENSE
 [MIT LICENSE](/LICENSE)
