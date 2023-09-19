@@ -29,7 +29,8 @@ This project was made for JLCPCB order.
   * PA12 USB_DP
 
 ## Parts
-
+[BOM](/production/bom.csv)
+[Position](/production/positions.csv)
 
 ## LICENSE
 [MIT LICENSE](/LICENSE)
