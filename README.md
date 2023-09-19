@@ -9,7 +9,7 @@ STM32F103C8T6
 [Datasheet](https://www.st.com/resource/en/datasheet/stm32f103cb.pdf)
 
 ## Board order
-I recommend ordering this board from JLCPCB. This board uses only Basic Parts excluding USB connector. Therefore, if you order this board, the price will be relatively low.
+I recommend ordering this board from JLCPCB. This board uses only Basic Parts excluding USB connector. Therefore, if you order this board, the price will be relatively low. 
 
 値段・方法・裏面のFLASH
 
@@ -34,7 +34,7 @@ I recommend ordering this board from JLCPCB. This board uses only Basic Parts ex
   * PA12 USB_DP
 
 ## Parts List
-You can see parts list from the BOM below. Take note that this list contains only implemented on top side. So FLASH memory which is implemented on bottom side is not contained on this list.
+You can see parts list from the BOM below.
 [Parts List](/production/bom.csv)
 
 ## LICENSE
