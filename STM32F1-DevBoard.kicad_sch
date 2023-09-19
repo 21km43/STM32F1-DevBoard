@@ -3242,7 +3242,7 @@
     (property "LCSC" "C32346" (at 105.41 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB Rotation Offset" "-180" (at 105.41 105.41 90)
+    (property "JLCPCB Rotation Offset" "0" (at 105.41 105.41 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 621ac9f7-5e32-4596-8f19-f6f2a8add6ce))
