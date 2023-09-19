@@ -34,7 +34,7 @@ I recommend ordering this board from JLCPCB. This board uses only Basic Parts ex
   * PA12 USB_DP
 
 ## Parts List
-You can see parts list from the BOM below.
+You can see parts list from the BOM below.  
 [Parts List](/production/bom.csv)
 
 ## LICENSE
