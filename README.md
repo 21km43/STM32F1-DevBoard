@@ -1,3 +1,10 @@
 # STM32F1開発ボード
-STM32F1最小開発ボード。使用チップはSTM32F103C8T6。JLCPCBで発注することを想定している。
-USBコネクタを除いて、Basic Partのみを使っており、部品代と送料以外ほぼ何もかかっていないのでそれなりに安く発注できると思います。発注枚数にもよりますが、1枚当たりの単価は3~5ドルくらい（枚数による）。
+
+## 使用チップ
+STM32F103C8T6  
+[Datasheet](https://www.st.com/resource/en/datasheet/stm32f103cb.pdf)
+
+## 部品
+
+## LICENSE
+[MIT LICENSE](/LICENSE)
