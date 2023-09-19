@@ -4339,7 +4339,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 265.43 40.64 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid cba2cfe4-1630-4409-b7d5-1a4cd437eb85)
     (property "Reference" "C6" (at 265.43 34.29 90)
       (effects (font (size 1.27 1.27)))
@@ -4397,7 +4397,7 @@
   )
 
   (symbol (lib_id "Memory_Flash:W25Q32JVSS") (at 257.81 54.61 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid d73836d8-f0a8-419a-99e4-fb0a3571a43f)
     (property "Reference" "U3" (at 248.92 62.23 0)
       (effects (font (size 1.27 1.27)) (justify right))
