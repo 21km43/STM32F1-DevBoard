@@ -12,7 +12,7 @@ STM32F103C8T6
 I recommend ordering this board from JLCPCB. This board uses only Basic Parts excluding USB connector. Therefore, if you order this board, the price will be relatively low. 
 
 When order this board, pay attention to the following.
-1. If it is a small volume production (qty <= 30 or 50) and the parts on the bottom side are not assembled, order this board by Economic PCBA.
+1. If it is a small volume production (qty <= 30 or 50) and the parts on the bottom side are not assembled, order this board with Economic PCBA.
 2. Order number is specified under the USB Connector. So you should select "Specify a location" for "Remove Order Number" option. 
 3. Tooling holes (Radius 1.152mm hole) is already installed. So you should select "Added by Customer" for "Tooling holes" option.
 4. For orders over 30 or 50 pieces, import tax should be imposed customs duties. (The tax border changes depending on the type of import and exchange rate.)
@@ -48,3 +48,4 @@ You can see parts list from the BOM below.
 
 ## LICENSE
 [MIT LICENSE](/LICENSE)
+You may use it freely for personal use, but if you wish to use it for commercial purposes, I would appreciate it if you could contact us.
