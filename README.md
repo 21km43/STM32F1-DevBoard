@@ -13,7 +13,7 @@ This project was made for JLCPCB order.
 
 ## Features
 * STM32F103C8T6 ARM Cortex M3
-* `72 MHz` maximum frequency, `64 Kbytes` of Flash memory, `20 Kbytes` of SRAM
+* `72 MHz` maximum frequency, `64 KB` of Flash memory, `20 KB` of SRAM
 * `8 MHz` crystal (High-Speed Enternal Clock)
 * `32.768 KHz` crystal (Low-Speed External Clock)
 * Green LED `PB2` Active high
