@@ -1,5 +1,8 @@
 # STM32F1 Development Board
 
+## Summary
+Schematic and Board layout of STM32F1 Development Board. This project was created using [KiCAD](https://www.kicad.org/).
+
 ## MCU
 STM32F103C8T6  
 72Mhz, 20KB RAM, 64KB ROM  
