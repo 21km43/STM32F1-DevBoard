@@ -46,6 +46,9 @@ Order cost is depends on part cost and so on. For reference, the following is a 
 You can see parts list from the BOM below.  
 [Parts List](/production/bom.csv)
 
+## Board Image
+![Board Image](STM32F1-DevBoard-board.png)
+
 ## LICENSE
 [MIT LICENSE](/LICENSE)  
 You may use it freely for personal use, but if you wish to use it for commercial purposes, I would appreciate it if you could contact us.
