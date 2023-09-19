@@ -8,8 +8,10 @@ STM32F103C8T6
 72Mhz, 20KB RAM, 64KB ROM  
 [Datasheet](https://www.st.com/resource/en/datasheet/stm32f103cb.pdf)
 
-## Production
-This project was made for JLCPCB order.
+## Board order
+I recommend ordering this board from JLCPCB. This board uses only Basic Parts excluding USB connector. Therefore, if you order this board, the price will be relatively low.
+
+値段・方法・裏面のFLASH
 
 ## Features
 * STM32F103C8T6 ARM Cortex M3
