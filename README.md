@@ -45,6 +45,7 @@ Order cost is depends on part cost and so on. For reference, the following is a 
 ### Supported FLASH
 * [W25QJVSSIQ](https://www.digikey.jp/ja/products/detail/winbond-electronics/W25Q32JVSSIQ/5803981)
 * [IS25LP040E](https://akizukidenshi.com/catalog/g/gI-18046/)
+
 Most SPI FLASH should be available. Check FLASH pinout before assemble.
 
 ## Parts List
