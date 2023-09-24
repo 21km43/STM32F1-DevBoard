@@ -9,7 +9,7 @@ STM32F103C8T6
 [Datasheet](https://www.st.com/resource/en/datasheet/stm32f103cb.pdf)
 
 ## Board order at JLCPCB
-I recommend ordering this board from JLCPCB. This board uses only Basic Parts excluding USB connector. Therefore, if you order this board, the price will be relatively low. 
+I recommend ordering this board from JLCPCB. This board uses only Basic or Preferred Extended Parts excluding USB connector. Therefore, if you order this board, the price will be relatively low. 
 
 When order this board, pay attention to the following.
 1. If it is a small volume production (qty <= 30 or 50) and the parts on the bottom side are not assembled, order this board with Economic PCBA.
